@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.brent.harman.lazyregister.DrawerConfigLayoutEditorFragment"
+    android:background="@drawable/cloudy_green_white_1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView5"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/layoutRowSizeEditors"></LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/basic_Add_New_Row"
+        android:id="@+id/btnAddNewRow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_weight="1"
+        android:background="@color/MoneyishGreen"
+        android:textColor="@color/PureWhite"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:layout_margin="5dp" />
+
+</RelativeLayout>

@@ -1,0 +1,282 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.brent.harman.lazyregister.DrawerData.MiscBinViewFragment"
+    android:background="@drawable/cloudy_green_white_1"
+    android:id="@+id/miscBinViewLayout"
+    android:clickable="true">
+    <!-- Setting ^ clickable so that calls can't go through to the fragment behind -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/leftLayout">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutInput"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/basic_MISC"
+                android:id="@+id/tvInputForeground"
+                android:gravity="left|center_vertical"
+                android:textStyle="bold|italic"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_centerVertical="true"
+                android:background="@color/BinViewData_InputBackground"
+                android:textColor="@color/MiscBinViewData_MiscLabelColor"
+                android:clickable="true"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/etInput"
+                android:gravity="center_vertical|right"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:layout_centerVertical="true"
+                android:singleLine="true"
+                android:editable="false"
+                android:clickable="false"
+                android:inputType="none" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/BinViewData_InputBackground"
+                android:textColor="@color/MiscBinViewData_NotesLabelColor"
+                android:text="NOTES"
+                android:textSize="60dp"
+                android:textStyle="bold|italic"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingBottom="10dp" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/etMiscNotes"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/MiscBinView_InitialNoteText"
+                    android:padding="10dp"
+                    android:gravity="top|left"
+                    android:textStyle="italic"
+                    android:background="@color/MiscBinViewData_NotesETBackground" />
+
+                </ScrollView>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/rightLayout">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="7"
+                android:id="@+id/btn7"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:background="@color/NiceBlue"
+                android:textColor="@color/PureWhite"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="8"
+                android:id="@+id/btn8"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:background="@color/NiceBlue"
+                android:textColor="@color/PureWhite"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="9"
+                android:id="@+id/btn9"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:background="@color/NiceBlue"
+                android:textColor="@color/PureWhite"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="4"
+                android:id="@+id/btn4"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:background="@color/NiceBlue"
+                android:textColor="@color/PureWhite"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="5"
+                android:id="@+id/btn5"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:background="@color/NiceBlue"
+                android:textColor="@color/PureWhite"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="6"
+                android:id="@+id/btn6"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:background="@color/NiceBlue"
+                android:textColor="@color/PureWhite"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="1"
+                android:id="@+id/btn1"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:background="@color/NiceBlue"
+                android:textColor="@color/PureWhite"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="2"
+                android:id="@+id/btn2"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:background="@color/NiceBlue"
+                android:textColor="@color/PureWhite"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="3"
+                android:id="@+id/btn3"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:background="@color/NiceBlue"
+                android:textColor="@color/PureWhite"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:id="@+id/btn0"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:background="@color/NiceBlue"
+                android:textColor="@color/PureWhite"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="."
+                android:id="@+id/btnDecimalPoint"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:background="@color/NiceBlue"
+                android:textColor="@color/PureWhite"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DEL"
+                android:id="@+id/btnDelete"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:background="@color/NiceBlue"
+                android:textColor="@color/PureWhite"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

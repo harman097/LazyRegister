@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Lazy Register</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="basic_and">and</string>
+    <string name="basic_in">in</string>
+    <string name="basic_Exactly">Exactly</string>
+    <string name="basic_At_Least">At Least</string>
+    <string name="basic_At_Most">At Most</string>
+    <string name="basic_Between">Between</string>
+    <string name="basic_New_Drawer">New Drawer</string>
+    <string name="basic_First_Used">First Used</string>
+    <string name="basic_Copy">Copy</string>
+    <string name="basic_New">New</string>
+    <string name="basic_TOTAL">TOTAL</string>
+    <string name="basic_Rename">Rename</string>
+    <string name="basic_Add_New_Row">Add New Row</string>
+    <string name="basic_Row">Row</string>
+    <string name="basic_Rows">Rows</string>
+    <string name="basic_Must_Have_At_Least">Must Have At Least</string>
+    <string name="basic_Displaying">Displaying</string>
+    <string name="basic_Delete">Delete</string>
+    <string name="basic_DEFAULT">DEFAULT</string>
+    <string name="basic_DEFAULT_LAYOUT">DEFAULT LAYOUT</string>
+    <string name="basic_Layout">Layout</string>
+    <string name="basic_Back">Back</string>
+    <string name="basic_Value_must_be_numeric">Value must be numeric</string>
+    <string name="basic_AMOUNT">AMOUNT</string>
+    <string name="basic_NAME">NAME</string>
+    <string name="basic_PHONE">PHONE</string>
+    <string name="basic_Rolled_Coins">Rolled Coins</string>
+    <string name="basic_Miscellaneous">Miscellaneous</string>
+    <string name="basic_MISC">MISC</string>
+    <string name="basic_Checks">Checks</string>
+    <string name="basic_All_Others">All Others</string>
+    <string name="basic_Empty">Empty</string>
+    <string name="basic_VALUE">VALUE</string>
+    <string name="basic_COUNT">COUNT</string>
+    <string name="basic_WEIGHT">WEIGHT</string>
+    <string name="basic_Value">Value</string>
+    <string name="basic_Count">Count</string>
+    <string name="basic_Weight_g_">Weight (g)</string>
+    <string name="basic_History">History</string>
+    <string name="basic_NOTES">NOTES</string>
+    <string name="basic_Make_Deposit">Make Deposit</string>
+    <string name="basic_Clean_Drawer">Clean Drawer</string>
+    <string name="basic_Currency">Currency</string>
+    <string name="basic_Cleaning_Settings">Cleaning Settings</string>
+    <string name="basic_Edit_Layout_Size">Edit Layout Size</string>
+    <string name="basic_NO_MAXIMUM">NO MAXIMUM</string>
+    <string name="basic_Rolls">Rolls</string>
+    <string name="basic_New_Total">New Total</string>
+    <string name="basic_Rule_is_impossible_to_satisfy">Rule is impossible to satisfy!</string>
+    <string name="basic_Remove_From_Drawer">Remove From Drawer</string>
+    <string name="basic_Add_To_Drawer">Add To Drawer</string>
+    <string name="basic_UNKNOWN">UNKNOWN</string>
+    <string name="basic_bins">bins</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_drawer_view_fragment">This is your drawer view fragment</string>
+
+    <string name="tvDisplayBy_text">Enter by &#8230;</string>
+    <string name="empty_total">-None-</string>
+    <string name="DefaultDrawerCleanerName">Default Settings</string>
+    <string name="ActionBar_GoToLayoutEditor">Go To Layout Editor</string>
+    <string name="ActionBar_GoToCleaningSettings">Edit Cleaning Settings</string>
+    <string name="ActionBar_GoToDepositSettings">Edit Deposit Settings</string>
+    <string name="MiscBinView_InitialNoteText">Enter any notes about this amount here&#8230;</string>
+    <string name="DrawerCleaningProposalView_PerformChangesButtonText">Perform Changes</string>
+    <string name="DrawerCleaningProposalAccepted">Applied changes to drawer</string>
+    <string name="CleaningSettingsFragment_TargetMinMaxText_1">Drawer should be between</string>
+    <string name="CleaningSettingsFragment_Rules">Rules for</string>
+    <string name="CleaningSettingsFragment_Add_Rule">Add Rule</string>
+    <string name="DrawerHistoryFragment_NullDrawerError">ERROR: This drawer was lost.</string>
+    <string name="ConfigEditorFragment_Choose_What_To_Store">Choose what to store here</string>
+    <string name="ConfigLayout_CantDeleteOnlyLayoutMessage">You must have at least one layout to use!</string>
+    <string name="CleanerEditor_CantDeleteOnlyCleanerMessage">You can\'t delete your only cleaner settings!</string>
+    <string name="RolledCoinView_NONE_LARGE">- NONE TO DISPLAY -</string>
+    <string name="RolledCoinView_NONE_Explanation">This currency allegedly doesn\'t issue coins in uniformly sized rolls.
+    You can disable Rolled Coins from showing up in a bin by long-clicking the bin and adjusting what you
+    would like to have stored there.  Sorry if this is incorrect or an inconvenience!</string>
+    <string name="CoinBinView_WeightUnreliable">Weights for this coin are unreliable! Please enter by value or
+    count instead.</string>
+
+    <string name="DrawerControllerActivity_DrawerViewFragDidntLoad">Lazy Register has encountered an
+    error!  Sorry!  Please click to relaunch!</string>
+
+    <string name="Debug_SampleLongNote">hi</string>
+</resources>

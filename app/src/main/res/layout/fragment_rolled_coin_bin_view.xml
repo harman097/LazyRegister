@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.brent.harman.lazyregister.RolledCoinBinViewFragment"
+    android:clickable="true"
+    android:background="#ffffffff">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/RolledCoinView_NONE_LARGE"
+            android:layout_centerInParent="true"
+            android:id="@+id/tvNoRolledCoinLarge"
+            android:layout_weight="2"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:gravity="bottom|center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/RolledCoinView_NONE_Explanation"
+            android:layout_below="@+id/tvNoRolledCoinLarge"
+            android:id="@+id/tvNoRolledCoin_Explanation"
+            android:layout_weight="1"
+            android:layout_margin="50dp"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView6"
+        android:fillViewport="true"
+        android:background="@drawable/cloudy_green_white_1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_RolledCoinRows"></LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

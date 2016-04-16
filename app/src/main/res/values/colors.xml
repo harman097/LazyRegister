@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Background">#FFFcFcFc</color>
+    <color name="BinViewData_InputBackground">#FFFFFFFF</color>
+    <color name="BinViewData_LabelFocused">#ff000000</color>
+    <color name="BinViewData_LabelUnfocused">#88000000</color>
+    <color name="BinViewData_ValueColor">@color/MoneyishGreen</color>
+    <color name="BinViewData_CountColor">@color/NiceBlue</color>
+    <color name="BinViewData_WeightColor">@color/Goldish</color>
+    <color name="BinViewData_DefaultColor">#888888</color>
+    <color name="MiscBinViewData_NotesLabelColor">#223399CC</color>
+    <color name="MiscBinViewData_NotesETBackground">#00ffffff</color>
+    <color name="MiscBinViewData_MiscLabelColor">#88009925</color>
+    <color name="CleaningSettings_RuleAcceptedBackground">#3300ff33</color>
+    <color name="Total_Enabled">@color/MoneyishGreen</color>
+    <color name="Total_Disabled">#66009955</color>
+
+    <color name="MoneyishGreen">#009955</color>
+    <color name="FiretruckRed">#cc0000</color>
+    <color name="NiceBlue">#1975ff</color>
+    <color name="BrightBlue">#3399cc</color>
+    <color name="Goldish">#ffaa66</color>
+    <color name="Silver">#c0c0c0</color>
+    <color name="PureWhite">#ffffff</color>
+</resources>

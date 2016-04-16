@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.brent.harman.lazyregister.DrawerCleaningProposalViewFragment"
+    android:orientation="vertical"
+    android:background="@drawable/square_green_to_white_1"
+    android:clickable="true">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/basic_Remove_From_Drawer"
+            android:id="@+id/textView"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/basic_Add_To_Drawer"
+            android:id="@+id/textView2"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/layout_dcpvf_scrollers">
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/svRemoveFromDrawerScroll"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:fillViewport="false"
+            android:layout_margin="5dp"
+            android:background="#ffffff">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/layoutRemoveFromDrawer"></LinearLayout>
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/svAddToDrawerScroll"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:fillViewport="false"
+            android:background="#ffffff">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/layoutAddToDrawer"></LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/tvRemoveFromDrawerTotal"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/DrawerCleaningProposalView_PerformChangesButtonText"
+            android:id="@+id/btnPerformChanges"
+            android:textColor="@color/PureWhite"
+            android:background="@color/NiceBlue"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/tvAddToDrawerTotal"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+</LinearLayout>

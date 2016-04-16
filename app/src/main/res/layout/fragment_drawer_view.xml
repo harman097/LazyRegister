@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.brent.harman.lazyregister.DrawerViewFragment"
+    android:background="@color/Background"
+    android:clickable="true">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvDrawerViewBackground"
+        android:singleLine="false"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="#ff888888" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/layout_buttons"></LinearLayout>
+
+</RelativeLayout>

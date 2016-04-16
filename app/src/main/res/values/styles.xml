@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:spinnerItemStyle">@style/AppTheme.DrawerListSpinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/AppTheme.DrawerListSpinnerDropdownItem</item>
+
+        <item name="android:actionBarStyle">@style/mActionBarStyle</item>
+        <!-- this line below is for Support library compatibility-->
+        <item name="actionBarStyle">@style/mActionBarStyle</item>
+
+    </style>
+
+    <style name="mActionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/actionbar_bg</item>
+        <item name="background">@color/MoneyishGreen</item>
+    </style>
+    <style name="AppTheme.DrawerListSpinnerItem" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textAppearance">@style/AppTheme.DrawerListSpinnerItem.TextAppearance</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+    </style>
+    <style name="AppTheme.DrawerListSpinnerDropdownItem" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textAppearance">@style/AppTheme.DrawerListSpinnerItem.TextAppearance</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:background">@color/PureWhite</item>
+    </style>
+
+    <style name="AppTheme.DrawerListSpinnerItem.TextAppearance" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@color/Goldish</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.ActionBarButtons" parent="android:Widget.Button">
+        <item name="android:color">@color/PureWhite</item>
+        <item name="android:colorBackground">@color/PureWhite</item>
+        <item name="android:textColor">@color/MoneyishGreen</item>
+    </style>
+
+
+
+</resources>
